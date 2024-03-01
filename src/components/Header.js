@@ -13,7 +13,7 @@ import logo from '../assets/logo.svg';
 function Header() {
   return (
     <Navbar fluid rounded className=''>
-      <Navbar.Brand href='https://flowbite-react.com'>
+      {/* <Navbar.Brand href='https://flowbite-react.com'>
         <Image
           src={logo?.src}
           width={logo?.width}
@@ -104,7 +104,7 @@ function Header() {
             <IoIosArrowRoundForward size={20} />
           </li>
         </ul>
-      </Navbar.Collapse>
+      </Navbar.Collapse> */}
     </Navbar>
   );
 }

@@ -11,7 +11,7 @@ import figure from '@/assets/hero/figure.png';
 
 const Hero = () => {
   return (
-    <div className='py-[60px]'>
+    <section className='py-[60px]'>
       <Wrapper>
         <div className='flex flex-col lg:flex-row gap-[60px]'>
           <div className='w-full lg:max-w-[440px]'>
@@ -31,7 +31,7 @@ const Hero = () => {
                 placeholder='Enter your work email'
                 className='w-full border border-[#9B99AF] pt-[11.5px] pr-[41px] pb-[14.5px] pl-[25px] text-lg leading-[22px] mb-[10px] rounded-full'
               />
-              <button className='group justify-center p-0.5 font-medium relative focus:z-10 focus:outline-none border border-transparent enabled:hover:bg-cyan-800 focus:ring-cyan-300 dark:bg-cyan-600 dark:enabled:hover:bg-cyan-700 dark:focus:ring-cyan-800 focus:ring-2 flex flex-nowrap items-center gap-2 bg-blue-600 rounded-full px-[16px] py-[13px] text-white w-full text-center duration-200'>
+              <button className='group justify-center p-0.5 font-medium relative focus:z-10 focus:outline-none border border-transparent enabled:hover:bg-cyan-800 focus:ring-cyan-300 dark:bg-cyan-600 dark:enabled:hover:bg-cyan-700 dark:focus:ring-cyan-800 focus:ring-2 flex flex-nowrap items-center gap-2 bg-[#4262FF] rounded-full px-[16px] py-[13px] text-white w-full text-center duration-200'>
                 <span className=''>Sign up free</span>
                 <IoIosArrowRoundForward size={20} />
               </button>
@@ -56,21 +56,27 @@ const Hero = () => {
                 <div className='flex flex-nowrap gap-3 px-[14.33]'>
                   <Image
                     src={icon1?.src}
-                    width={icon1?.width}
-                    height={icon1?.height}
                     alt='icon-1'
+                    width='0'
+                    height='0'
+                    sizes='100vw'
+                    className='w-full h-auto'
                   />
                   <Image
                     src={icon2?.src}
-                    width={icon2?.width}
-                    height={icon2?.height}
                     alt='icon-2'
+                    width='0'
+                    height='0'
+                    sizes='100vw'
+                    className='w-full h-auto'
                   />
                   <Image
                     src={icon3?.src}
-                    width={icon3?.width}
-                    height={icon3?.height}
                     alt='icon-3'
+                    width='0'
+                    height='0'
+                    sizes='100vw'
+                    className='w-full h-auto'
                   />
                 </div>
               </div>
@@ -80,15 +86,16 @@ const Hero = () => {
           <figure className='flex-1'>
             <Image
               src={figure?.src}
-              width={figure?.width}
-              height={figure?.height}
               alt='figure'
-              layout='responsive'
+              width='0'
+              height='0'
+              sizes='100vw'
+              className='w-full h-auto'
             />
           </figure>
         </div>
       </Wrapper>
-    </div>
+    </section>
   );
 };
 
