@@ -1,3 +1,4 @@
+import Collaborate from '@/components/Collaborate';
 import Hero from '@/components/Hero';
 import Partner from '@/components/Partner';
 import Image from 'next/image';
@@ -7,6 +8,7 @@ export default function Home() {
     <main className=''>
       <Hero />
       <Partner />
+      <Collaborate />
     </main>
   );
 }
