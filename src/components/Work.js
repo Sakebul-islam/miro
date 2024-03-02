@@ -6,7 +6,7 @@ import { IoIosArrowRoundForward } from 'react-icons/io';
 
 const Work = () => {
   return (
-    <section className='mt-16 sm:mt-20 md:mt-[92px]'>
+    <section className='pt-16 sm:pt-20 md:pt-[92px]'>
       <Wrapper>
         <div className='flex flex-col md:items-center md:flex-row gap-5'>
           <div className='flex-1'>

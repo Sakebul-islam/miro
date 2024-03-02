@@ -3,7 +3,7 @@ import Wrapper from './Wrapper';
 
 const Collaborate = () => {
   return (
-    <section className='mt-6'>
+    <section className='pt-6'>
       <Wrapper>
         <div className=''>
           <div className='max-w-[480px] text-center mx-auto mb-3 pt-24 relative'>

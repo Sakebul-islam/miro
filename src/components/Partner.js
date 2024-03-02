@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Wrapper from './Wrapper';
 import Marquee from 'react-fast-marquee';
 
 import cisco from '@/assets/partner/cisco.svg';
@@ -13,12 +12,12 @@ const Partner = () => {
 
   return (
     <section className='py-[60px]'>
-      <Wrapper>
+      <div className='max-w-[1168px] px-4 md:px-6 mx-auto'>
         <div className=''>
           <p className='text-[#05003899] text-lg leading-[24px] text-center mb-12'>
             Trusted by 45M+ users
           </p>
-          <Marquee className='gap-10' pauseOnHover='true'>
+          <Marquee className='gap-10 pb-[28px]' pauseOnHover='true'>
             {images.map((img, ind) => (
               <div
                 className='w-[224px] h-[64px] flex place-content-center'
@@ -36,7 +35,7 @@ const Partner = () => {
             ))}
           </Marquee>
         </div>
-      </Wrapper>
+      </div>
     </section>
   );
 };

@@ -5,7 +5,7 @@ import WorkTabsContent from './WorkTabsContent';
 
 const WorkTabs = () => {
   return (
-    <section className='mt-12 md:mt-[60px]'>
+    <section className='pt-12 md:pt-[60px]'>
       <div className='max-w-[1168px] px-4 md:px-6 mx-auto'>
         <div className='md:p-[30px]'>
           <div className='mb-8'>

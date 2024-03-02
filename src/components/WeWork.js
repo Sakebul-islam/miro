@@ -5,8 +5,8 @@ import { IoIosArrowRoundForward } from 'react-icons/io';
 
 const WeWork = () => {
   return (
-    <section className='mt-10 md:mt-[60px]'>
-      <div className='max-w-[1018px] px-4 md:px-6 mx-auto'>
+    <section className='pt-10 md:pt-[60px]'>
+      <div className='max-w-[1066px] px-4 md:px-6 mx-auto'>
         <figure className='w-full h-[350px] sm:h-auto relative'>
           <Image
             src={work?.src}
