@@ -15,31 +15,34 @@ const teams = [
   {
     id: 1,
     photoURL: photo1,
-    description: 'Description of the first photo',
+    description:
+      '“When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.”',
     author: {
       photoURL: author1,
-      designation: 'Author 1 Designation',
-      description: 'Description of the first author',
+      name: 'Roxanne Mustafa',
+      designation: 'Description of the first author',
     },
   },
   {
     id: 2,
     photoURL: photo2,
-    description: 'Description of the second photo',
+    description:
+      '“Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.”',
     author: {
       photoURL: author2,
-      designation: 'Author 2 Designation',
-      description: 'Description of the second author',
+      name: 'Jane Ashley',
+      designation: 'Description of the second author',
     },
   },
   {
     id: 3,
     photoURL: photo3,
-    description: 'Description of the third photo',
+    description:
+      '“As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at the core of what we do and will continue to extend into the future.”',
     author: {
       photoURL: author3,
-      designation: 'Author 3 Designation',
-      description: 'Description of the third author',
+      name: 'Laura Baird',
+      designation: 'Description of the third author',
     },
   },
 ];

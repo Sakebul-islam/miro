@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import figure from '@/assets/teams/teams.png';
+import figure from '@/assets/wark-tab.png';
 import Link from 'next/link';
 import { IoIosArrowRoundForward } from 'react-icons/io';
 import icon1 from '@/assets/teams/scatch.svg';

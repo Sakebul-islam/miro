@@ -6,6 +6,7 @@ import Connect from '@/components/Connect';
 import WeWork from '@/components/WeWork';
 import WorkTabs from '@/components/WorkTabs';
 import Teams from '@/components/Teams';
+import TeamsTabs from '@/components/TeamsTabs';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Connect />
       <WeWork />
       <WorkTabs />
+      <TeamsTabs />
       <Teams />
     </main>
   );
