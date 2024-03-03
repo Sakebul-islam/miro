@@ -2,7 +2,6 @@ import Image from 'next/image';
 import React from 'react';
 
 const TeamCard = ({ team }) => {
-  console.log(team);
   return (
     <div className='p-5 sm:p-[36px] flex flex-col'>
       <figure className='w-full mb-[34.3px]'>

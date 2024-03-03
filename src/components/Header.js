@@ -1,6 +1,5 @@
 'use client';
 
-import { Button, Navbar } from 'flowbite-react';
 import { Dropdown, DropdownItem } from 'flowbite-react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -11,105 +10,6 @@ import { FiMenu } from 'react-icons/fi';
 import logo from '../assets/logo.svg';
 import MenuRight from './MenuRight';
 import { useState } from 'react';
-
-// function Header() {
-//   return (
-//     <Navbar fluid rounded className='flex-nowrap'>
-//       <Navbar.Brand href='https://flowbite-react.com'>
-//         <Image
-//           src={logo?.src}
-//           width={logo?.width}
-//           height={logo?.height}
-//           alt='miro'
-//         />
-//       </Navbar.Brand>
-//       <Navbar.Collapse className='justify-between items-center'>
-//         <Navbar.Link
-//           as='div'
-//           className='h-full flex md:justify-center items-center'
-//         >
-//           <Dropdown label='Product' inline>
-//             <Dropdown.Item>
-//               <Link href='#'>Product-1</Link>
-//             </Dropdown.Item>
-//             <Dropdown.Item>
-//               <Link href='#'>Product-2</Link>
-//             </Dropdown.Item>
-//             <Dropdown.Item>
-//               <Link href='#'>Product-3</Link>
-//             </Dropdown.Item>
-//             <Dropdown.Item>
-//               <Link href='#'>Product-4</Link>
-//             </Dropdown.Item>
-//             <Dropdown.Item>
-//               <Link href='#'>Product-5</Link>
-//             </Dropdown.Item>
-//           </Dropdown>
-//         </Navbar.Link>
-//         <Navbar.Link
-//           as='div'
-//           className='h-full flex md:justify-center items-center'
-//         >
-//           <Dropdown label='Solutions' inline>
-//             <Dropdown.Item>
-//               <Link href='#'>Solution-1</Link>
-//             </Dropdown.Item>
-//             <Dropdown.Item>
-//               <Link href='#'>Solution-2</Link>
-//             </Dropdown.Item>
-//             <Dropdown.Item>
-//               <Link href='#'>Solution-3</Link>
-//             </Dropdown.Item>
-//             <Dropdown.Item>
-//               <Link href='#'>Solution-4</Link>
-//             </Dropdown.Item>
-//             <Dropdown.Item>
-//               <Link href='#'>Solution-5</Link>
-//             </Dropdown.Item>
-//           </Dropdown>
-//         </Navbar.Link>
-//         <Navbar.Link
-//           as='div'
-//           className='h-full flex md:justify-center items-center'
-//         >
-//           <Dropdown label='Resources' inline>
-//             <Dropdown.Item>
-//               <Link href='#'>Resource-1</Link>
-//             </Dropdown.Item>
-//             <Dropdown.Item>
-//               <Link href='#'>Resource-2</Link>
-//             </Dropdown.Item>
-//             <Dropdown.Item>
-//               <Link href='#'>Resource-3</Link>
-//             </Dropdown.Item>
-//             <Dropdown.Item>
-//               <Link href='#'>Resource-4</Link>
-//             </Dropdown.Item>
-//             <Dropdown.Item>
-//               <Link href='#'>Resource-5</Link>
-//             </Dropdown.Item>
-//           </Dropdown>
-//         </Navbar.Link>
-//         <Navbar.Link
-//           as='div'
-//           className='h-full flex md:justify-center items-center'
-//         >
-//           <Link href='#'>Enterprise</Link>
-//         </Navbar.Link>
-//         <Navbar.Link
-//           as='div'
-//           className='h-full flex md:justify-center items-center'
-//         >
-//           <Link href='#'>Pricing</Link>
-//         </Navbar.Link>
-//         <MenuRight />
-//       </Navbar.Collapse>
-//       <div className='flex md:order-2 lg:hidden'>
-//         <Navbar.Toggle className='' />
-//       </div>
-//     </Navbar>
-//   );
-// }
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
