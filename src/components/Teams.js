@@ -49,7 +49,7 @@ const teams = [
 
 const Teams = () => {
   return (
-    <section className='pt-24 md:pt-[120px] md:pb-[100px]'>
+    <section className='py-24 md:pt-[120px] md:pb-[100px]'>
       <Wrapper>
         <div className=''>
           <div className='mb-10'>

@@ -4,13 +4,25 @@
 @tailwind components;
 @tailwind utilities;
 
+img {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+/* Customize header */
+button[aria-haspopup="menu"] {
+    width: 100%;
+}
+
 /* Customize workTabs */
 div[role="tablist"] {
     gap: 8px;
     box-shadow: none !important;
     margin-bottom: 14px;
-    /* grid-template-columns: repeat(1, minmax(0, 1fr));
-    grid-auto-flow: row; */
     display: flex;
     flex-direction: column;
 }
@@ -51,6 +63,12 @@ div[role="tabpanel"] {
     }
 
     div[role="tablist"] button {
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    button[aria-haspopup="menu"] {
         width: auto;
     }
 }

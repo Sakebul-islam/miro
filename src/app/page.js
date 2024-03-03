@@ -7,7 +7,6 @@ import WeWork from '@/components/WeWork';
 import WorkTabs from '@/components/WorkTabs';
 import Teams from '@/components/Teams';
 import TeamsTabs from '@/components/TeamsTabs';
-import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -21,7 +20,6 @@ export default function Home() {
       <WorkTabs />
       <TeamsTabs />
       <Teams />
-      <Footer />
     </main>
   );
 }

@@ -11,7 +11,7 @@ import figure from '@/assets/hero/figure.png';
 
 const Hero = () => {
   return (
-    <section className='py-[60px]'>
+    <section className='py-[30px] md:py-[60px]'>
       <Wrapper>
         <div className='flex flex-col lg:flex-row gap-[60px]'>
           <div className='w-full lg:max-w-[440px]'>
@@ -40,7 +40,7 @@ const Hero = () => {
               <p className='text-[#05003866] font-helvetica leading-5 text-sm mb-10'>
                 Collaborate with your team within minutes
               </p>
-              <div className='bg-[#F5F5F7] p-[14px] rounded-lg flex flex-col sm:flex-row flex-nowrap gap-7'>
+              <div className='bg-[#F5F5F7] p-[14px] rounded-lg flex flex-col sm:flex-row flex-nowrap gap-3 md:gap-7'>
                 <div className=''>
                   <div className='flex flex-nowrap gap-[6px] mb-[2px]'>
                     <PiStarFill color='#FF9D48' />
@@ -57,26 +57,26 @@ const Hero = () => {
                   <Image
                     src={icon1?.src}
                     alt='icon-1'
-                    width='0'
-                    height='0'
-                    sizes='100vw'
-                    className='w-full h-auto'
+                    width={icon1?.width}
+                    height={icon1?.height}
+                    // sizes='100vw'
+                    // className='w-full h-auto'
                   />
                   <Image
                     src={icon2?.src}
                     alt='icon-2'
-                    width='0'
-                    height='0'
-                    sizes='100vw'
-                    className='w-full h-auto'
+                    width={icon2?.width}
+                    height={icon2?.height}
+                    // sizes='100vw'
+                    // className='w-full h-auto'
                   />
                   <Image
                     src={icon3?.src}
                     alt='icon-3'
-                    width='0'
-                    height='0'
-                    sizes='100vw'
-                    className='w-full h-auto'
+                    width={icon3?.width}
+                    height={icon3?.height}
+                    // sizes='100vw'
+                    // className='w-full h-auto'
                   />
                 </div>
               </div>

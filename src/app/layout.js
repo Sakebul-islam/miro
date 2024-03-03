@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -17,10 +18,12 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <head>
         <ThemeModeScript />
+        <link rel='shortcut icon' href='./logo.svg' />
       </head>
       <body className={inter.className}>
-        {/* <Header /> */}
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -2,6 +2,7 @@
 
 import { Tabs } from 'flowbite-react';
 import TabContent from './TeamsTabsContent';
+import WorkTabsContent from './WorkTabsContent';
 
 const TeamsTabs = () => {
   return (
@@ -19,19 +20,19 @@ const TeamsTabs = () => {
                 <TabContent />
               </Tabs.Item>
               <Tabs.Item title='Marketing'>
-                <TabContent />
+                <WorkTabsContent />
               </Tabs.Item>
               <Tabs.Item title='Product Management'>
                 <TabContent />
               </Tabs.Item>
               <Tabs.Item title='Engineering'>
-                <TabContent />
+                <WorkTabsContent />
               </Tabs.Item>
               <Tabs.Item title='Consultants'>
                 <TabContent />
               </Tabs.Item>
               <Tabs.Item title='Agile Coaches'>
-                <TabContent />
+                <WorkTabsContent />
               </Tabs.Item>
               <Tabs.Item title='Sales'>
                 <TabContent />

@@ -11,7 +11,7 @@ const Partner = () => {
   const images = [cisco, deloitte, okta, volvo, Walmart];
 
   return (
-    <section className='py-[60px]'>
+    <section className='py-[30px] md:py-[60px]'>
       <div className='max-w-[1168px] px-4 md:px-6 mx-auto'>
         <div className=''>
           <p className='text-[#05003899] text-lg leading-[24px] text-center mb-12'>
