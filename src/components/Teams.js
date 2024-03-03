@@ -16,7 +16,7 @@ const teams = [
     id: 1,
     photoURL: photo1,
     description:
-      '“When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.”',
+      'When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.',
     author: {
       photoURL: author1,
       name: 'Roxanne Mustafa',
@@ -27,7 +27,7 @@ const teams = [
     id: 2,
     photoURL: photo2,
     description:
-      '“Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.”',
+      'Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.',
     author: {
       photoURL: author2,
       name: 'Jane Ashley',
@@ -38,7 +38,7 @@ const teams = [
     id: 3,
     photoURL: photo3,
     description:
-      '“As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at the core of what we do and will continue to extend into the future.”',
+      'As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at the core of what we do and will continue to extend into the future.',
     author: {
       photoURL: author3,
       name: 'Laura Baird',
@@ -54,7 +54,7 @@ const Teams = () => {
         <div className=''>
           <div className='mb-10'>
             <h2 className='text-[#050038] text-3xl md:text-4xl lg:text-5xl font-bold lg:leading-[56px] text-center mb-6'>
-              Loved by the world's best teams
+              Loved by the world&apos;s best teams
             </h2>
             <div className='text-center flex flex-nowrap items-center justify-center'>
               <Link

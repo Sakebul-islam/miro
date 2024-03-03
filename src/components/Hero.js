@@ -20,8 +20,8 @@ const Hero = () => {
                 Take ideas from better to best
               </h2>
               <p className='font-helvetica text-[#050038B8] text-sm'>
-                Miro is your team's visual platform to connect, collaborate, and
-                create — together.
+                Miro is your team&apos;s visual platform to connect,
+                collaborate, and create — together.
               </p>
             </div>
             <form className='mb-[7px]'>

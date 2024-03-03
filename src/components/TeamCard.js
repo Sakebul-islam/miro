@@ -13,7 +13,7 @@ const TeamCard = ({ team }) => {
           layout='fixed'
         />
       </figure>
-      <p className='grow'>{team?.description}</p>
+      <p className='grow'>&ldquo;{team?.description}&rdquo;</p>
 
       <div className='mt-[50px] flex flex-row gap-4'>
         <Image
